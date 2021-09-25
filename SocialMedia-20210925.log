@@ -1,0 +1,1041 @@
+2021-09-25 09:50:36.921 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 09:50:36.978 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 09:50:37.202 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 09:50:37.396 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 09:50:38.090 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 09:50:38.105 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 09:50:38.106 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 09:50:38.106 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 09:50:38.109 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 09:50:38.356 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d9f5016] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:50:38.369 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@438c9aa7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:50:38.419 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 09:50:38.433 [main] INFO  org.allisonkosy.App - Lion
+2021-09-25 09:51:07.728 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 09:51:07.788 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 09:51:08.014 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 09:51:08.200 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 09:51:08.950 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 09:51:08.955 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 09:51:08.955 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 09:51:08.955 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 09:51:08.958 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 09:51:09.220 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38fb50f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:51:09.233 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1961d75a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:51:09.282 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 09:51:09.439 [main] INFO  org.allisonkosy.App - Closing User
+2021-09-25 09:51:09.465 [main] INFO  org.allisonkosy.App - Created User{id=1, username='kosy', password='lion', isLoggedIn=false}
+2021-09-25 09:54:17.335 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 09:54:17.397 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 09:54:17.635 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 09:54:17.830 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 09:54:18.619 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 09:54:18.627 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 09:54:18.627 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 09:54:18.628 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 09:54:18.631 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 09:54:18.883 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@521441d5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:54:18.894 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f6cc7da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:54:18.955 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 09:54:19.140 [main] INFO  org.allisonkosy.App - Closing User
+2021-09-25 09:54:19.164 [main] INFO  org.allisonkosy.App - Created User{id=1, username='john', password='lion', isLoggedIn=false}
+2021-09-25 09:54:19.187 [main] INFO  org.allisonkosy.App - Closing Post
+2021-09-25 09:54:19.211 [main] INFO  org.allisonkosy.App - Created Post{id=2, user=User{id=1, username='john', password='lion', isLoggedIn=false}, createDate=Sat Sep 25 09:54:19 WAT 2021, modifyDate=Sat Sep 25 09:54:19 WAT 2021, body='lion'}
+2021-09-25 09:54:19.224 [main] INFO  org.allisonkosy.App - Closing User
+2021-09-25 09:54:19.224 [main] INFO  org.allisonkosy.App - Created User{id=3, username='kosy', password='lion', isLoggedIn=false}
+2021-09-25 09:54:19.244 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 09:54:19.246 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 09:54:19.249 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@279126f5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 09:54:19.267 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:03:05.307 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:03:05.369 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:03:05.599 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:03:05.788 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:03:06.504 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:03:06.509 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:03:06.510 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:03:06.510 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:03:06.512 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:03:06.746 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@66a53104] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:03:06.766 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9ab310b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:03:06.817 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:03:07.010 [main] INFO  org.allisonkosy.App - Created User{id=1, username='kosy', password='lion', isLoggedIn=false}
+2021-09-25 10:03:07.012 [main] INFO  org.allisonkosy.App - Created User{id=2, username='lionel', password='onion', isLoggedIn=false}
+2021-09-25 10:03:31.447 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:03:31.501 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:03:31.686 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:03:31.873 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:03:32.535 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:03:32.550 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:03:32.550 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:03:32.551 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:03:32.554 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:03:32.759 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@66a53104] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:03:32.772 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9ab310b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:03:32.829 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:03:33.009 [main] INFO  org.allisonkosy.App - Created User{id=1, username='kosy', password='lion', isLoggedIn=false}
+2021-09-25 10:03:33.012 [main] INFO  org.allisonkosy.App - Created User{id=2, username='lionel', password='onion', isLoggedIn=false}
+2021-09-25 10:03:33.014 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2021-09-25 10:03:33.014 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.UK_R43AF9AP4EDM43MMTQ01ODDJ6_INDEX_4 ON PUBLIC.USERS(USERNAME) VALUES 2"; SQL statement:
+insert into users (password, username, id) values (?, ?, ?) [23505-200]
+2021-09-25 10:03:33.023 [main] ERROR org.allisonkosy.App - User with username lionel exists
+2021-09-25 10:13:19.151 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:13:19.231 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:13:19.448 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:13:19.642 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:13:20.333 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:13:20.353 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:13:20.354 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:13:20.354 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:13:20.357 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:13:20.610 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d229b1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:13:20.622 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b40de43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:13:20.673 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:13:20.687 [main] INFO  org.allisonkosy.App - Index 1 out of bounds for length 1
+2021-09-25 10:13:20.840 [main] INFO  org.allisonkosy.App - Created User{id=1, username='id', password='first_name', isLoggedIn=false}
+2021-09-25 10:13:20.842 [main] INFO  org.allisonkosy.App - Created User{id=2, username='1', password='Giffard', isLoggedIn=false}
+2021-09-25 10:13:20.844 [main] INFO  org.allisonkosy.App - Created User{id=3, username='2', password='Maynord', isLoggedIn=false}
+2021-09-25 10:13:20.847 [main] INFO  org.allisonkosy.App - Created User{id=4, username='3', password='Thornie', isLoggedIn=false}
+2021-09-25 10:13:20.849 [main] INFO  org.allisonkosy.App - Created User{id=5, username='4', password='Rickie', isLoggedIn=false}
+2021-09-25 10:13:20.851 [main] INFO  org.allisonkosy.App - Created User{id=6, username='5', password='Reed', isLoggedIn=false}
+2021-09-25 10:13:20.852 [main] INFO  org.allisonkosy.App - Created User{id=7, username='6', password='Benedetto', isLoggedIn=false}
+2021-09-25 10:13:20.854 [main] INFO  org.allisonkosy.App - Created User{id=8, username='7', password='Edmund', isLoggedIn=false}
+2021-09-25 10:13:20.855 [main] INFO  org.allisonkosy.App - Created User{id=9, username='8', password='Rhodie', isLoggedIn=false}
+2021-09-25 10:13:20.857 [main] INFO  org.allisonkosy.App - Created User{id=10, username='9', password='Vilma', isLoggedIn=false}
+2021-09-25 10:13:20.858 [main] INFO  org.allisonkosy.App - Created User{id=11, username='10', password='Phaedra', isLoggedIn=false}
+2021-09-25 10:13:20.860 [main] INFO  org.allisonkosy.App - Created User{id=12, username='11', password='Faydra', isLoggedIn=false}
+2021-09-25 10:13:20.861 [main] INFO  org.allisonkosy.App - Created User{id=13, username='12', password='Barr', isLoggedIn=false}
+2021-09-25 10:13:20.863 [main] INFO  org.allisonkosy.App - Created User{id=14, username='13', password='Stearne', isLoggedIn=false}
+2021-09-25 10:13:20.864 [main] INFO  org.allisonkosy.App - Created User{id=15, username='14', password='Stevena', isLoggedIn=false}
+2021-09-25 10:13:20.866 [main] INFO  org.allisonkosy.App - Created User{id=16, username='15', password='Karl', isLoggedIn=false}
+2021-09-25 10:13:20.869 [main] INFO  org.allisonkosy.App - Created User{id=17, username='16', password='Fidelia', isLoggedIn=false}
+2021-09-25 10:13:20.874 [main] INFO  org.allisonkosy.App - Created User{id=18, username='17', password='Truda', isLoggedIn=false}
+2021-09-25 10:13:20.876 [main] INFO  org.allisonkosy.App - Created User{id=19, username='18', password='Wallace', isLoggedIn=false}
+2021-09-25 10:13:20.877 [main] INFO  org.allisonkosy.App - Created User{id=20, username='19', password='Walt', isLoggedIn=false}
+2021-09-25 10:13:20.879 [main] INFO  org.allisonkosy.App - Created User{id=21, username='20', password='Teresina', isLoggedIn=false}
+2021-09-25 10:13:20.880 [main] INFO  org.allisonkosy.App - Created User{id=22, username='21', password='Merline', isLoggedIn=false}
+2021-09-25 10:13:20.882 [main] INFO  org.allisonkosy.App - Created User{id=23, username='22', password='Martha', isLoggedIn=false}
+2021-09-25 10:13:20.884 [main] INFO  org.allisonkosy.App - Created User{id=24, username='23', password='Mariquilla', isLoggedIn=false}
+2021-09-25 10:13:20.888 [main] INFO  org.allisonkosy.App - Created User{id=25, username='24', password='Ivonne', isLoggedIn=false}
+2021-09-25 10:13:20.890 [main] INFO  org.allisonkosy.App - Created User{id=26, username='25', password='Grethel', isLoggedIn=false}
+2021-09-25 10:13:20.891 [main] INFO  org.allisonkosy.App - Created User{id=27, username='26', password='Brnaba', isLoggedIn=false}
+2021-09-25 10:13:20.893 [main] INFO  org.allisonkosy.App - Created User{id=28, username='27', password='Horatius', isLoggedIn=false}
+2021-09-25 10:13:20.894 [main] INFO  org.allisonkosy.App - Created User{id=29, username='28', password='Brittan', isLoggedIn=false}
+2021-09-25 10:13:20.895 [main] INFO  org.allisonkosy.App - Created User{id=30, username='29', password='Nero', isLoggedIn=false}
+2021-09-25 10:13:20.897 [main] INFO  org.allisonkosy.App - Created User{id=31, username='30', password='Rebecka', isLoggedIn=false}
+2021-09-25 10:13:20.898 [main] INFO  org.allisonkosy.App - Created User{id=32, username='31', password='Rhett', isLoggedIn=false}
+2021-09-25 10:13:20.899 [main] INFO  org.allisonkosy.App - Created User{id=33, username='32', password='Marisa', isLoggedIn=false}
+2021-09-25 10:13:20.901 [main] INFO  org.allisonkosy.App - Created User{id=34, username='33', password='Vick', isLoggedIn=false}
+2021-09-25 10:13:20.902 [main] INFO  org.allisonkosy.App - Created User{id=35, username='34', password='Roseann', isLoggedIn=false}
+2021-09-25 10:13:20.904 [main] INFO  org.allisonkosy.App - Created User{id=36, username='35', password='Laverne', isLoggedIn=false}
+2021-09-25 10:13:20.905 [main] INFO  org.allisonkosy.App - Created User{id=37, username='36', password='Tristam', isLoggedIn=false}
+2021-09-25 10:13:20.906 [main] INFO  org.allisonkosy.App - Created User{id=38, username='37', password='Puff', isLoggedIn=false}
+2021-09-25 10:13:20.908 [main] INFO  org.allisonkosy.App - Created User{id=39, username='38', password='Teodoro', isLoggedIn=false}
+2021-09-25 10:13:20.909 [main] INFO  org.allisonkosy.App - Created User{id=40, username='39', password='Yank', isLoggedIn=false}
+2021-09-25 10:13:20.910 [main] INFO  org.allisonkosy.App - Created User{id=41, username='40', password='Vickie', isLoggedIn=false}
+2021-09-25 10:13:20.912 [main] INFO  org.allisonkosy.App - Created User{id=42, username='41', password='Orlando', isLoggedIn=false}
+2021-09-25 10:13:20.914 [main] INFO  org.allisonkosy.App - Created User{id=43, username='42', password='Alaine', isLoggedIn=false}
+2021-09-25 10:13:20.915 [main] INFO  org.allisonkosy.App - Created User{id=44, username='43', password='Wolf', isLoggedIn=false}
+2021-09-25 10:13:20.917 [main] INFO  org.allisonkosy.App - Created User{id=45, username='44', password='Brigit', isLoggedIn=false}
+2021-09-25 10:13:20.919 [main] INFO  org.allisonkosy.App - Created User{id=46, username='45', password='Wandie', isLoggedIn=false}
+2021-09-25 10:13:20.920 [main] INFO  org.allisonkosy.App - Created User{id=47, username='46', password='Lutero', isLoggedIn=false}
+2021-09-25 10:13:20.922 [main] INFO  org.allisonkosy.App - Created User{id=48, username='47', password='Lexy', isLoggedIn=false}
+2021-09-25 10:13:20.924 [main] INFO  org.allisonkosy.App - Created User{id=49, username='48', password='Erna', isLoggedIn=false}
+2021-09-25 10:13:20.925 [main] INFO  org.allisonkosy.App - Created User{id=50, username='49', password='Miles', isLoggedIn=false}
+2021-09-25 10:13:20.926 [main] INFO  org.allisonkosy.App - Created User{id=51, username='50', password='Niles', isLoggedIn=false}
+2021-09-25 10:14:01.476 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:14:01.533 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:14:01.740 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:14:01.921 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:14:02.725 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:14:02.729 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:14:02.730 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:14:02.730 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:14:02.732 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:14:02.943 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d229b1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:14:02.958 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b40de43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:14:03.003 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:14:03.205 [main] INFO  org.allisonkosy.App - Created User{id=1, username='1', password='Giffard', isLoggedIn=false}
+2021-09-25 10:14:03.208 [main] INFO  org.allisonkosy.App - Created User{id=2, username='2', password='Maynord', isLoggedIn=false}
+2021-09-25 10:14:03.210 [main] INFO  org.allisonkosy.App - Created User{id=3, username='3', password='Thornie', isLoggedIn=false}
+2021-09-25 10:14:03.211 [main] INFO  org.allisonkosy.App - Created User{id=4, username='4', password='Rickie', isLoggedIn=false}
+2021-09-25 10:14:03.213 [main] INFO  org.allisonkosy.App - Created User{id=5, username='5', password='Reed', isLoggedIn=false}
+2021-09-25 10:14:03.214 [main] INFO  org.allisonkosy.App - Created User{id=6, username='6', password='Benedetto', isLoggedIn=false}
+2021-09-25 10:14:03.216 [main] INFO  org.allisonkosy.App - Created User{id=7, username='7', password='Edmund', isLoggedIn=false}
+2021-09-25 10:14:03.217 [main] INFO  org.allisonkosy.App - Created User{id=8, username='8', password='Rhodie', isLoggedIn=false}
+2021-09-25 10:14:03.220 [main] INFO  org.allisonkosy.App - Created User{id=9, username='9', password='Vilma', isLoggedIn=false}
+2021-09-25 10:14:03.222 [main] INFO  org.allisonkosy.App - Created User{id=10, username='10', password='Phaedra', isLoggedIn=false}
+2021-09-25 10:14:03.223 [main] INFO  org.allisonkosy.App - Created User{id=11, username='11', password='Faydra', isLoggedIn=false}
+2021-09-25 10:14:03.226 [main] INFO  org.allisonkosy.App - Created User{id=12, username='12', password='Barr', isLoggedIn=false}
+2021-09-25 10:14:03.228 [main] INFO  org.allisonkosy.App - Created User{id=13, username='13', password='Stearne', isLoggedIn=false}
+2021-09-25 10:14:03.231 [main] INFO  org.allisonkosy.App - Created User{id=14, username='14', password='Stevena', isLoggedIn=false}
+2021-09-25 10:14:03.233 [main] INFO  org.allisonkosy.App - Created User{id=15, username='15', password='Karl', isLoggedIn=false}
+2021-09-25 10:14:03.235 [main] INFO  org.allisonkosy.App - Created User{id=16, username='16', password='Fidelia', isLoggedIn=false}
+2021-09-25 10:14:03.238 [main] INFO  org.allisonkosy.App - Created User{id=17, username='17', password='Truda', isLoggedIn=false}
+2021-09-25 10:14:03.240 [main] INFO  org.allisonkosy.App - Created User{id=18, username='18', password='Wallace', isLoggedIn=false}
+2021-09-25 10:14:03.243 [main] INFO  org.allisonkosy.App - Created User{id=19, username='19', password='Walt', isLoggedIn=false}
+2021-09-25 10:14:03.245 [main] INFO  org.allisonkosy.App - Created User{id=20, username='20', password='Teresina', isLoggedIn=false}
+2021-09-25 10:14:03.246 [main] INFO  org.allisonkosy.App - Created User{id=21, username='21', password='Merline', isLoggedIn=false}
+2021-09-25 10:14:03.248 [main] INFO  org.allisonkosy.App - Created User{id=22, username='22', password='Martha', isLoggedIn=false}
+2021-09-25 10:14:03.250 [main] INFO  org.allisonkosy.App - Created User{id=23, username='23', password='Mariquilla', isLoggedIn=false}
+2021-09-25 10:14:03.252 [main] INFO  org.allisonkosy.App - Created User{id=24, username='24', password='Ivonne', isLoggedIn=false}
+2021-09-25 10:14:03.254 [main] INFO  org.allisonkosy.App - Created User{id=25, username='25', password='Grethel', isLoggedIn=false}
+2021-09-25 10:14:03.256 [main] INFO  org.allisonkosy.App - Created User{id=26, username='26', password='Brnaba', isLoggedIn=false}
+2021-09-25 10:14:03.258 [main] INFO  org.allisonkosy.App - Created User{id=27, username='27', password='Horatius', isLoggedIn=false}
+2021-09-25 10:14:03.260 [main] INFO  org.allisonkosy.App - Created User{id=28, username='28', password='Brittan', isLoggedIn=false}
+2021-09-25 10:14:03.262 [main] INFO  org.allisonkosy.App - Created User{id=29, username='29', password='Nero', isLoggedIn=false}
+2021-09-25 10:14:03.263 [main] INFO  org.allisonkosy.App - Created User{id=30, username='30', password='Rebecka', isLoggedIn=false}
+2021-09-25 10:14:03.265 [main] INFO  org.allisonkosy.App - Created User{id=31, username='31', password='Rhett', isLoggedIn=false}
+2021-09-25 10:14:03.266 [main] INFO  org.allisonkosy.App - Created User{id=32, username='32', password='Marisa', isLoggedIn=false}
+2021-09-25 10:14:03.268 [main] INFO  org.allisonkosy.App - Created User{id=33, username='33', password='Vick', isLoggedIn=false}
+2021-09-25 10:14:03.269 [main] INFO  org.allisonkosy.App - Created User{id=34, username='34', password='Roseann', isLoggedIn=false}
+2021-09-25 10:14:03.271 [main] INFO  org.allisonkosy.App - Created User{id=35, username='35', password='Laverne', isLoggedIn=false}
+2021-09-25 10:14:03.273 [main] INFO  org.allisonkosy.App - Created User{id=36, username='36', password='Tristam', isLoggedIn=false}
+2021-09-25 10:14:03.275 [main] INFO  org.allisonkosy.App - Created User{id=37, username='37', password='Puff', isLoggedIn=false}
+2021-09-25 10:14:03.277 [main] INFO  org.allisonkosy.App - Created User{id=38, username='38', password='Teodoro', isLoggedIn=false}
+2021-09-25 10:14:03.279 [main] INFO  org.allisonkosy.App - Created User{id=39, username='39', password='Yank', isLoggedIn=false}
+2021-09-25 10:14:03.281 [main] INFO  org.allisonkosy.App - Created User{id=40, username='40', password='Vickie', isLoggedIn=false}
+2021-09-25 10:14:03.283 [main] INFO  org.allisonkosy.App - Created User{id=41, username='41', password='Orlando', isLoggedIn=false}
+2021-09-25 10:14:03.285 [main] INFO  org.allisonkosy.App - Created User{id=42, username='42', password='Alaine', isLoggedIn=false}
+2021-09-25 10:14:03.287 [main] INFO  org.allisonkosy.App - Created User{id=43, username='43', password='Wolf', isLoggedIn=false}
+2021-09-25 10:14:03.289 [main] INFO  org.allisonkosy.App - Created User{id=44, username='44', password='Brigit', isLoggedIn=false}
+2021-09-25 10:14:03.291 [main] INFO  org.allisonkosy.App - Created User{id=45, username='45', password='Wandie', isLoggedIn=false}
+2021-09-25 10:14:03.292 [main] INFO  org.allisonkosy.App - Created User{id=46, username='46', password='Lutero', isLoggedIn=false}
+2021-09-25 10:14:03.294 [main] INFO  org.allisonkosy.App - Created User{id=47, username='47', password='Lexy', isLoggedIn=false}
+2021-09-25 10:14:03.296 [main] INFO  org.allisonkosy.App - Created User{id=48, username='48', password='Erna', isLoggedIn=false}
+2021-09-25 10:14:03.299 [main] INFO  org.allisonkosy.App - Created User{id=49, username='49', password='Miles', isLoggedIn=false}
+2021-09-25 10:14:03.301 [main] INFO  org.allisonkosy.App - Created User{id=50, username='50', password='Niles', isLoggedIn=false}
+2021-09-25 10:14:26.026 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:14:26.085 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:14:26.317 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:14:26.503 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:14:27.200 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:14:27.214 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:14:27.215 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:14:27.215 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:14:27.218 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:14:27.413 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d229b1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:14:27.423 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b40de43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:14:27.473 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:14:27.639 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:14:27.641 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:14:27.643 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:14:27.648 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:14:27.651 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:14:27.654 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 10:14:27.658 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 10:14:27.660 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 10:14:27.663 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 10:14:27.666 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 10:14:27.668 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 10:14:27.672 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 10:14:27.674 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 10:14:27.676 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 10:14:27.679 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 10:14:27.682 [main] INFO  org.allisonkosy.App - Created User{id=16, username='Fidelia', password='KlaLDnZoEgE', isLoggedIn=false}
+2021-09-25 10:14:27.684 [main] INFO  org.allisonkosy.App - Created User{id=17, username='Truda', password='dfcRpt', isLoggedIn=false}
+2021-09-25 10:14:27.689 [main] INFO  org.allisonkosy.App - Created User{id=18, username='Wallace', password='PiOKZUrOs2', isLoggedIn=false}
+2021-09-25 10:14:27.691 [main] INFO  org.allisonkosy.App - Created User{id=19, username='Walt', password='PBPoTtN', isLoggedIn=false}
+2021-09-25 10:14:27.694 [main] INFO  org.allisonkosy.App - Created User{id=20, username='Teresina', password='DRg6Ro', isLoggedIn=false}
+2021-09-25 10:14:27.696 [main] INFO  org.allisonkosy.App - Created User{id=21, username='Merline', password='XoKoNc', isLoggedIn=false}
+2021-09-25 10:14:27.699 [main] INFO  org.allisonkosy.App - Created User{id=22, username='Martha', password='bTdvKzsaj', isLoggedIn=false}
+2021-09-25 10:14:27.701 [main] INFO  org.allisonkosy.App - Created User{id=23, username='Mariquilla', password='0sxkfz0M', isLoggedIn=false}
+2021-09-25 10:14:27.705 [main] INFO  org.allisonkosy.App - Created User{id=24, username='Ivonne', password='Wt32LJCa', isLoggedIn=false}
+2021-09-25 10:14:27.707 [main] INFO  org.allisonkosy.App - Created User{id=25, username='Grethel', password='1JjydZa7N', isLoggedIn=false}
+2021-09-25 10:14:27.710 [main] INFO  org.allisonkosy.App - Created User{id=26, username='Brnaba', password='iOlAQu8h1qq3', isLoggedIn=false}
+2021-09-25 10:14:27.713 [main] INFO  org.allisonkosy.App - Created User{id=27, username='Horatius', password='DoxZkAUUjI7k', isLoggedIn=false}
+2021-09-25 10:14:27.716 [main] INFO  org.allisonkosy.App - Created User{id=28, username='Brittan', password='pvcbTnM9kZsw', isLoggedIn=false}
+2021-09-25 10:14:27.719 [main] INFO  org.allisonkosy.App - Created User{id=29, username='Nero', password='x2SDQ7', isLoggedIn=false}
+2021-09-25 10:14:27.722 [main] INFO  org.allisonkosy.App - Created User{id=30, username='Rebecka', password='SK0r73P', isLoggedIn=false}
+2021-09-25 10:14:27.725 [main] INFO  org.allisonkosy.App - Created User{id=31, username='Rhett', password='GhYV3M9fDI', isLoggedIn=false}
+2021-09-25 10:14:27.728 [main] INFO  org.allisonkosy.App - Created User{id=32, username='Marisa', password='SJkQ2kF20', isLoggedIn=false}
+2021-09-25 10:14:27.730 [main] INFO  org.allisonkosy.App - Created User{id=33, username='Vick', password='kvQNWJF9', isLoggedIn=false}
+2021-09-25 10:14:27.733 [main] INFO  org.allisonkosy.App - Created User{id=34, username='Roseann', password='2OpUnnJi', isLoggedIn=false}
+2021-09-25 10:14:27.736 [main] INFO  org.allisonkosy.App - Created User{id=35, username='Laverne', password='Nu6wpupWmj1g', isLoggedIn=false}
+2021-09-25 10:14:27.738 [main] INFO  org.allisonkosy.App - Created User{id=36, username='Tristam', password='FE0nGkIIBe', isLoggedIn=false}
+2021-09-25 10:14:27.740 [main] INFO  org.allisonkosy.App - Created User{id=37, username='Puff', password='t1W930geGubk', isLoggedIn=false}
+2021-09-25 10:14:27.744 [main] INFO  org.allisonkosy.App - Created User{id=38, username='Teodoro', password='CTYrVhHcJEV', isLoggedIn=false}
+2021-09-25 10:14:27.746 [main] INFO  org.allisonkosy.App - Created User{id=39, username='Yank', password='PrRGWwBA', isLoggedIn=false}
+2021-09-25 10:14:27.748 [main] INFO  org.allisonkosy.App - Created User{id=40, username='Vickie', password='qzbcsmztHeWO', isLoggedIn=false}
+2021-09-25 10:14:27.751 [main] INFO  org.allisonkosy.App - Created User{id=41, username='Orlando', password='hrsFCQqF', isLoggedIn=false}
+2021-09-25 10:14:27.754 [main] INFO  org.allisonkosy.App - Created User{id=42, username='Alaine', password='iFBMMs', isLoggedIn=false}
+2021-09-25 10:14:27.758 [main] INFO  org.allisonkosy.App - Created User{id=43, username='Wolf', password='0FxRIQg', isLoggedIn=false}
+2021-09-25 10:14:27.761 [main] INFO  org.allisonkosy.App - Created User{id=44, username='Brigit', password='OofMiMb9', isLoggedIn=false}
+2021-09-25 10:14:27.775 [main] INFO  org.allisonkosy.App - Created User{id=45, username='Wandie', password='HwjagJm', isLoggedIn=false}
+2021-09-25 10:14:27.778 [main] INFO  org.allisonkosy.App - Created User{id=46, username='Lutero', password='ohHE6N', isLoggedIn=false}
+2021-09-25 10:14:27.781 [main] INFO  org.allisonkosy.App - Created User{id=47, username='Lexy', password='DiBJ2J', isLoggedIn=false}
+2021-09-25 10:14:27.784 [main] INFO  org.allisonkosy.App - Created User{id=48, username='Erna', password='I3GS8a0G6', isLoggedIn=false}
+2021-09-25 10:14:27.788 [main] INFO  org.allisonkosy.App - Created User{id=49, username='Miles', password='ljchT7GNaV', isLoggedIn=false}
+2021-09-25 10:14:27.792 [main] INFO  org.allisonkosy.App - Created User{id=50, username='Niles', password='UDBuvNrWs', isLoggedIn=false}
+2021-09-25 10:17:10.145 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:17:10.220 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:17:10.460 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:17:10.683 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:17:11.463 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:17:11.468 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:17:11.468 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:17:11.468 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:17:11.471 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:17:11.695 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f7cec93] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:17:11.706 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2415e4c7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:17:11.767 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:17:11.975 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:17:11.979 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:17:11.986 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:17:11.988 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:17:11.989 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:17:12.009 [main] INFO  org.allisonkosy.App - Closing Post
+2021-09-25 10:17:12.024 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}, createDate=Sat Sep 25 10:17:11 WAT 2021, modifyDate=Sat Sep 25 10:17:11 WAT 2021, body='lion'}
+2021-09-25 10:17:12.042 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:17:12.043 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:17:12.045 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b9c42bd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:17:12.064 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:18:08.227 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:18:08.300 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:18:08.546 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:18:08.751 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:18:09.642 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:18:09.648 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:18:09.648 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:18:09.648 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:18:09.652 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:18:09.874 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1f7cec93] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:18:09.890 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2415e4c7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:18:09.946 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:18:10.175 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:18:10.178 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:18:10.180 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:18:10.182 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:18:10.185 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:18:10.203 [main] INFO  org.allisonkosy.App - Closing Post
+2021-09-25 10:18:10.225 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}, createDate=Sat Sep 25 10:18:10 WAT 2021, modifyDate=Sat Sep 25 10:18:10 WAT 2021, body='lion'}
+2021-09-25 10:18:10.258 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:18:10.258 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:18:10.259 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@37e7c4cc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:18:10.289 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:25:31.853 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:25:31.913 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:25:32.185 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:25:32.378 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:25:33.068 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:25:33.084 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:25:33.085 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:25:33.085 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:25:33.087 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:25:33.333 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f825516] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:25:33.345 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@49fb0bbd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:25:33.397 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:25:33.595 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:25:33.597 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:25:33.599 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:25:33.601 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:25:33.604 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:25:33.864 [main] INFO  org.allisonkosy.App - User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:31:08.374 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:31:08.450 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:31:08.689 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:31:08.910 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:31:09.708 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:31:09.713 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:31:09.713 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:31:09.713 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:31:09.716 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:31:09.980 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16b3c905] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:31:09.992 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1213ffbc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:31:10.050 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:31:10.239 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:31:10.242 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:31:10.244 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:31:10.247 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:31:10.249 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:31:10.281 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}, createDate=Sat Sep 25 10:31:10 WAT 2021, modifyDate=Sat Sep 25 10:31:10 WAT 2021, body='lion', title='lion is coming', slug='lion-is-coming'}
+2021-09-25 10:31:10.304 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:31:10.304 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:31:10.309 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17ec335a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:31:10.323 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:35:26.667 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:35:26.730 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:35:26.964 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:35:27.200 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:35:28.013 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:35:28.018 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:35:28.018 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:35:28.018 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:35:28.021 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:35:28.314 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16b3c905] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:35:28.330 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1213ffbc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:35:28.386 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:35:28.573 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:35:28.576 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:35:28.578 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:35:28.580 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:35:28.581 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:35:28.836 [main] INFO  org.allisonkosy.App - User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:35:28.884 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}, createDate=Sat Sep 25 10:35:28 WAT 2021, modifyDate=Sat Sep 25 10:35:28 WAT 2021, body='lion', title='lion is coming', slug='lion-is-coming'}
+2021-09-25 10:35:28.906 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:35:28.909 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:35:28.910 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43e8f1c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:35:28.925 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:44:41.112 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:44:41.198 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:44:41.466 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:44:41.687 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:44:42.545 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:44:42.551 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:44:42.551 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:44:42.551 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:44:42.554 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:44:42.805 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@27b337bb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:44:42.819 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3fdcde7a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:44:42.881 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:44:43.094 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:44:43.096 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:44:43.099 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:44:43.102 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:44:43.105 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:44:43.416 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:44:43.459 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 10:44:43 WAT 2021, modifyDate=Sat Sep 25 10:44:43 WAT 2021, body='lion', title='lion is coming', slug='lion-is-coming'}
+2021-09-25 10:44:43.490 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:44:43.491 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:44:43.492 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15994b0b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:44:43.509 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:45:23.255 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:45:23.412 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:45:23.871 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:45:24.081 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:45:24.897 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:45:24.901 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:45:24.902 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:45:24.903 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:45:24.906 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:45:25.149 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@27b337bb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:45:25.168 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3fdcde7a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:45:25.223 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:45:25.649 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:45:25.653 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:45:25.657 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:45:25.660 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:45:25.662 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:45:26.011 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:45:26.059 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 10:45:26 WAT 2021, modifyDate=Sat Sep 25 10:45:26 WAT 2021, body='lion', title='lion is coming', slug='lion-is-coming'}
+2021-09-25 10:45:26.090 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:45:26.092 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:45:26.095 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@40dd552c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:45:26.107 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:46:08.888 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:46:08.977 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:46:09.243 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:46:09.468 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:46:10.274 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:46:10.278 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:46:10.278 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:46:10.279 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:46:10.283 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:46:10.522 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:46:10.533 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:46:10.597 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:46:10.785 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:46:10.787 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:46:10.790 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:46:10.792 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:46:10.796 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:46:11.122 [main] INFO  org.allisonkosy.App - User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:46:11.165 [main] INFO  org.allisonkosy.App - Created Post{id=6, user=User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}, createDate=Sat Sep 25 10:46:11 WAT 2021, modifyDate=Sat Sep 25 10:46:11 WAT 2021, body='lion', title='lion is coming', slug='lion-is-coming'}
+2021-09-25 10:46:11.250 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:46:11.270 [main] INFO  org.allisonkosy.App - Created Post{id=7, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 10:46:11 WAT 2021, modifyDate=Sat Sep 25 10:46:11 WAT 2021, body='lion', title='lion is coming', slug='lion-is-coming'}
+2021-09-25 10:46:11.291 [main] INFO  org.allisonkosy.App - Created User{id=8, username='kosy', password='lion', isLoggedIn=false}
+2021-09-25 10:46:11.397 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:46:11.398 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:46:11.403 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38f617f4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:46:11.419 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:49:39.088 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:49:39.173 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:49:39.418 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:49:39.628 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:49:40.419 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:49:40.424 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:49:40.424 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:49:40.424 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:49:40.427 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:49:40.665 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5c18d6d4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:49:40.677 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7302ff13] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:49:40.738 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:49:40.949 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:49:40.953 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:49:40.955 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:49:40.959 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:49:40.962 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:49:41.102 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:49:41.105 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:49:41.108 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@79add732] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:49:41.126 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:50:19.613 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:50:19.706 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:50:19.971 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:50:20.167 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:50:20.974 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:50:20.979 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:50:20.981 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:50:20.981 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:50:20.984 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:50:21.237 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5c18d6d4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:50:21.250 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7302ff13] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:50:21.312 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:50:21.540 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:50:21.543 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:50:21.546 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:50:21.548 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:50:21.551 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:50:21.889 [main] INFO  org.allisonkosy.App - User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:50:21.912 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:50:21.918 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:50:21.921 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b7d2d51] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:50:21.932 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:51:33.403 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:51:33.469 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:51:33.802 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:51:34.060 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:51:34.799 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:51:34.803 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:51:34.804 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:51:34.804 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:51:34.807 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:51:35.053 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6cbb175] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:51:35.064 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4017fe2c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:51:35.125 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:51:35.308 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:51:35.310 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:51:35.313 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:51:35.315 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:51:35.317 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:51:35.631 [main] INFO  org.allisonkosy.App - User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:51:35.665 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:51:35.666 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:51:35.667 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@641ed324] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:51:35.677 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:56:07.448 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:56:07.511 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:56:07.760 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:56:08.021 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:56:08.865 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:56:08.870 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:56:08.870 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:56:08.870 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:56:08.873 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:56:09.120 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b97907c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:56:09.132 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cfb0c4c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:56:09.194 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:56:09.413 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:56:09.416 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:56:09.419 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:56:09.433 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:56:09.440 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:56:09.774 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:56:09.775 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:56:09.776 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b7d2d51] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:56:09.800 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 10:56:57.381 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 10:56:57.476 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 10:56:57.734 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 10:56:57.925 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 10:56:58.709 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 10:56:58.714 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 10:56:58.715 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 10:56:58.715 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 10:56:58.718 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 10:56:58.970 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2c18a3ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:56:58.981 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b97907c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:56:59.041 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 10:56:59.255 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 10:56:59.259 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 10:56:59.261 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 10:56:59.264 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 10:56:59.267 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 10:56:59.633 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 10:56:59.635 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 10:56:59.637 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2e45a357] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 10:56:59.645 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:03:39.144 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:03:39.248 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:03:39.495 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:03:40.031 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:03:41.451 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:03:41.469 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:03:41.470 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:03:41.471 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:03:41.518 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:03:42.036 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b97907c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:03:42.058 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cfb0c4c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:03:42.176 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:03:42.429 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:03:42.432 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:03:42.434 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:03:42.437 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:03:42.439 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:03:42.982 [main] ERROR org.allisonkosy.App - No record found
+2021-09-25 11:03:43.013 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:03:43.017 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:03:43.019 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3271ec2a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:03:43.032 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:13:39.882 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:13:39.971 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:13:40.335 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:13:40.564 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:13:41.351 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:13:41.355 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:13:41.356 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:13:41.356 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:13:41.359 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:13:41.593 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b97907c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:13:41.604 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cfb0c4c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:13:41.664 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:13:41.894 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:13:41.897 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:13:41.900 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:13:41.903 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:13:41.905 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:13:41.908 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:13:41.911 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:13:41.913 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:13:41.916 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:13:41.918 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:13:41.921 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:13:41.923 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:13:41.926 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:13:41.929 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:13:41.931 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:13:42.271 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:13:42.310 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:13:42 WAT 2021, modifyDate=Sat Sep 25 11:13:42 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:13:42.313 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:13:42.315 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:13:42 WAT 2021, modifyDate=Sat Sep 25 11:13:42 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:13:42.317 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:13:42.320 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:13:42 WAT 2021, modifyDate=Sat Sep 25 11:13:42 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:13:42.321 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:13:42.324 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:13:42 WAT 2021, modifyDate=Sat Sep 25 11:13:42 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:13:42.326 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:13:42.329 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:13:42 WAT 2021, modifyDate=Sat Sep 25 11:13:42 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:13:42.380 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:13:42.382 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:13:42.386 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@538b3c88] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:13:42.399 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:14:25.667 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:14:25.742 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:14:25.975 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:14:26.215 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:14:27.031 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:14:27.035 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:14:27.035 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:14:27.035 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:14:27.038 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:14:27.261 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b97907c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:14:27.272 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cfb0c4c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:14:27.323 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:14:27.550 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:14:27.553 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:14:27.555 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:14:27.557 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:14:27.559 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:14:27.562 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:14:27.564 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:14:27.566 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:14:27.568 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:14:27.570 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:14:27.573 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:14:27.576 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:14:27.579 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:14:27.582 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:14:27.585 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:14:27.904 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:14:27.945 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:14:27 WAT 2021, modifyDate=Sat Sep 25 11:14:27 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:14:27.947 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:14:27.950 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:14:27 WAT 2021, modifyDate=Sat Sep 25 11:14:27 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:14:27.952 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:14:27.954 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:14:27 WAT 2021, modifyDate=Sat Sep 25 11:14:27 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:14:27.956 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:14:27.959 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:14:27 WAT 2021, modifyDate=Sat Sep 25 11:14:27 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:14:27.960 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:14:27.963 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:14:27 WAT 2021, modifyDate=Sat Sep 25 11:14:27 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:14:28.044 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:14:28.049 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:14:28.050 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3b96f8b0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:14:28.066 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:17:22.910 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:17:22.994 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:17:23.240 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:17:23.435 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:17:24.237 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:17:24.242 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:17:24.243 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:17:24.244 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:17:24.247 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:17:24.614 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:17:24.625 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:17:24.678 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:17:24.931 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:17:24.944 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:17:24.949 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:17:24.955 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:17:24.959 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:17:24.973 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:17:24.982 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:17:24.985 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:17:24.990 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:17:24.998 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:17:25.007 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:17:25.012 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:17:25.014 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:17:25.029 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:17:25.033 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:17:25.437 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:17:25.472 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:17:25 WAT 2021, modifyDate=Sat Sep 25 11:17:25 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:17:25.475 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:17:25.481 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:17:25 WAT 2021, modifyDate=Sat Sep 25 11:17:25 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:17:25.483 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:17:25.486 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:17:25 WAT 2021, modifyDate=Sat Sep 25 11:17:25 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:17:25.487 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:17:25.493 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:17:25 WAT 2021, modifyDate=Sat Sep 25 11:17:25 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:17:25.494 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:17:25.497 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:17:25 WAT 2021, modifyDate=Sat Sep 25 11:17:25 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:17:25.559 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:17:25.560 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:17:25.561 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@49ced9c7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:17:25.579 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:19:16.506 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:19:16.581 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:19:16.817 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:19:17.048 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:19:17.835 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:19:17.839 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:19:17.839 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:19:17.840 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:19:17.843 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:19:18.080 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:19:18.101 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:19:18.166 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:19:18.385 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:19:18.388 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:18.390 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:19:18.392 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:19:18.394 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:19:18.397 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:19:18.399 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:19:18.402 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:19:18.404 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:19:18.407 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:19:18.409 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:19:18.412 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:19:18.415 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:19:18.418 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:19:18.421 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:19:18.731 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:18.778 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:18 WAT 2021, modifyDate=Sat Sep 25 11:19:18 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:18.780 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:18.782 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:18 WAT 2021, modifyDate=Sat Sep 25 11:19:18 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:18.784 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:18.786 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:18 WAT 2021, modifyDate=Sat Sep 25 11:19:18 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:18.788 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:18.791 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:18 WAT 2021, modifyDate=Sat Sep 25 11:19:18 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:18.792 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:18.797 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:18 WAT 2021, modifyDate=Sat Sep 25 11:19:18 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:18.855 [main] ERROR org.allisonkosy.App - An error occured
+2021-09-25 11:19:18.897 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:19:18.898 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:19:18.901 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63db743d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:19:18.919 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:19:51.483 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:19:51.556 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:19:51.789 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:19:52.014 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:19:52.823 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:19:52.828 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:19:52.829 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:19:52.829 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:19:52.832 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:19:53.065 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:19:53.076 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:19:53.129 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:19:53.353 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:19:53.355 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:53.358 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:19:53.361 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:19:53.364 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:19:53.367 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:19:53.371 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:19:53.373 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:19:53.376 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:19:53.379 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:19:53.382 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:19:53.386 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:19:53.389 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:19:53.391 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:19:53.394 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:19:53.748 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:53.798 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:53 WAT 2021, modifyDate=Sat Sep 25 11:19:53 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:53.801 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:53.804 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:53 WAT 2021, modifyDate=Sat Sep 25 11:19:53 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:53.815 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:53.822 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:53 WAT 2021, modifyDate=Sat Sep 25 11:19:53 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:53.823 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:53.826 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:53 WAT 2021, modifyDate=Sat Sep 25 11:19:53 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:53.828 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:19:53.830 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:19:53 WAT 2021, modifyDate=Sat Sep 25 11:19:53 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:19:53.934 [main] ERROR org.allisonkosy.App - An error occured
+2021-09-25 11:19:53.983 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:19:53.984 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:19:53.985 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63db743d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:19:54.007 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:22:07.258 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:22:07.356 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:22:07.715 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:22:08.083 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:22:09.125 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:22:09.134 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:22:09.135 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:22:09.135 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:22:09.139 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:22:09.471 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22a260ff] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:22:09.497 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62d40e31] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:22:09.598 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:22:09.875 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:22:09.877 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:09.880 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:22:09.882 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:22:09.885 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:22:09.887 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:22:09.889 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:22:09.892 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:22:09.895 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:22:09.897 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:22:09.900 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:22:09.902 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:22:09.905 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:22:09.908 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:22:09.912 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:22:10.357 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:10.418 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:10 WAT 2021, modifyDate=Sat Sep 25 11:22:10 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:10.420 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:10.424 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:10 WAT 2021, modifyDate=Sat Sep 25 11:22:10 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:10.426 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:10.429 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:10 WAT 2021, modifyDate=Sat Sep 25 11:22:10 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:10.431 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:10.434 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:10 WAT 2021, modifyDate=Sat Sep 25 11:22:10 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:10.436 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:10.440 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:10 WAT 2021, modifyDate=Sat Sep 25 11:22:10 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:29.530 [main] ERROR org.allisonkosy.App - An error occured
+2021-09-25 11:22:32.413 [main] ERROR org.allisonkosy.App - No record found
+2021-09-25 11:22:32.479 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:22:32.480 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:22:32.482 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1187dc82] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:22:32.491 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:22:46.360 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:22:46.472 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:22:46.819 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:22:47.172 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:22:48.234 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:22:48.239 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:22:48.240 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:22:48.240 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:22:48.244 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:22:48.545 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22a260ff] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:22:48.561 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@62d40e31] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:22:48.634 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:22:48.874 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:22:48.883 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:48.887 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:22:48.889 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:22:48.892 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:22:48.895 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:22:48.897 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:22:48.900 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:22:48.904 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:22:48.906 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:22:48.909 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:22:48.913 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:22:48.916 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:22:48.920 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:22:48.923 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:22:49.356 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:49.429 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:49 WAT 2021, modifyDate=Sat Sep 25 11:22:49 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:49.433 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:49.439 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:49 WAT 2021, modifyDate=Sat Sep 25 11:22:49 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:49.440 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:49.443 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:49 WAT 2021, modifyDate=Sat Sep 25 11:22:49 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:49.447 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:49.450 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:49 WAT 2021, modifyDate=Sat Sep 25 11:22:49 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:22:49.452 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:22:49.454 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:22:49 WAT 2021, modifyDate=Sat Sep 25 11:22:49 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:24:04.313 [main] ERROR org.allisonkosy.App - An error occured
+2021-09-25 11:26:03.824 [main] ERROR org.allisonkosy.App - No record found
+2021-09-25 11:26:03.876 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:26:03.877 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:26:03.878 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@18026052] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:26:03.886 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:26:16.309 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:26:16.391 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:26:16.644 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:26:16.833 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:26:17.705 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:26:17.710 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:26:17.710 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:26:17.710 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:26:17.713 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:26:17.949 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:26:17.959 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:26:18.019 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:26:18.215 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:26:18.217 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:26:18.220 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:26:18.222 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:26:18.224 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:26:18.226 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:26:18.229 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:26:18.231 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:26:18.234 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:26:18.238 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:26:18.241 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:26:18.244 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:26:18.247 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:26:18.250 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:26:18.254 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:26:18.590 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:26:18.626 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:26:18 WAT 2021, modifyDate=Sat Sep 25 11:26:18 WAT 2021, body='This is the body', title='A title0', slug='a-title0'}
+2021-09-25 11:26:18.628 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:26:18.631 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:26:18 WAT 2021, modifyDate=Sat Sep 25 11:26:18 WAT 2021, body='This is the body', title='A title1', slug='a-title1'}
+2021-09-25 11:26:18.633 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:26:18.635 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:26:18 WAT 2021, modifyDate=Sat Sep 25 11:26:18 WAT 2021, body='This is the body', title='A title2', slug='a-title2'}
+2021-09-25 11:26:18.637 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:26:18.640 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:26:18 WAT 2021, modifyDate=Sat Sep 25 11:26:18 WAT 2021, body='This is the body', title='A title3', slug='a-title3'}
+2021-09-25 11:26:18.642 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:26:18.644 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:26:18 WAT 2021, modifyDate=Sat Sep 25 11:26:18 WAT 2021, body='This is the body', title='A title4', slug='a-title4'}
+2021-09-25 11:26:18.694 [main] INFO  org.allisonkosy.App - Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=2021-09-25 11:26:18.629, modifyDate=2021-09-25 11:26:18.629, body='This is the body', title='A title1', slug='a-title1'}
+2021-09-25 11:26:18.741 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:26:18.744 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:26:18.748 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@516195cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:26:18.776 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:26:58.632 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:26:58.718 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:26:58.966 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:26:59.161 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:27:00.004 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:27:00.010 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:27:00.010 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:27:00.011 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:27:00.013 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:27:00.292 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:27:00.307 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:27:00.362 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:27:00.551 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:27:00.553 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:27:00.555 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:27:00.557 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:27:00.560 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:27:00.562 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:27:00.565 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:27:00.567 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:27:00.570 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:27:00.573 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:27:00.575 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:27:00.578 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:27:00.580 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:27:00.582 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:27:00.585 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:27:00.904 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:27:00.952 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:27:00 WAT 2021, modifyDate=Sat Sep 25 11:27:00 WAT 2021, body='This is the body', title='A title0', slug='a-title0'}
+2021-09-25 11:27:00.953 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:27:00.956 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:27:00 WAT 2021, modifyDate=Sat Sep 25 11:27:00 WAT 2021, body='This is the body', title='A title1', slug='a-title1'}
+2021-09-25 11:27:00.958 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:27:00.961 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:27:00 WAT 2021, modifyDate=Sat Sep 25 11:27:00 WAT 2021, body='This is the body', title='A title2', slug='a-title2'}
+2021-09-25 11:27:00.962 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:27:00.965 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:27:00 WAT 2021, modifyDate=Sat Sep 25 11:27:00 WAT 2021, body='This is the body', title='A title3', slug='a-title3'}
+2021-09-25 11:27:00.966 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:27:00.968 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:27:00 WAT 2021, modifyDate=Sat Sep 25 11:27:00 WAT 2021, body='This is the body', title='A title4', slug='a-title4'}
+2021-09-25 11:27:01.013 [main] INFO  org.allisonkosy.App - Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=2021-09-25 11:27:00.955, modifyDate=2021-09-25 11:27:00.955, body='This is the body', title='A title1', slug='a-title1'}
+2021-09-25 11:27:01.035 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:27:01.040 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:27:01.044 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@781c2497] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:27:01.056 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:29:02.806 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:29:02.877 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:29:03.159 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:29:03.388 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:29:04.201 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:29:04.206 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:29:04.207 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:29:04.207 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:29:04.209 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:29:04.431 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:29:04.442 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:29:04.492 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:29:04.696 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:29:04.699 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:29:04.701 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:29:04.704 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:29:04.706 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:29:04.708 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:29:04.711 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:29:04.714 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:29:04.716 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:29:04.719 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:29:04.722 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:29:04.724 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:29:04.727 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:29:04.730 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:29:04.733 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:29:05.063 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:29:05.117 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:29:05 WAT 2021, modifyDate=Sat Sep 25 11:29:05 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:29:05.118 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:29:05.121 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:29:05 WAT 2021, modifyDate=Sat Sep 25 11:29:05 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:29:05.122 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:29:05.125 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:29:05 WAT 2021, modifyDate=Sat Sep 25 11:29:05 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:29:05.127 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:29:05.130 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:29:05 WAT 2021, modifyDate=Sat Sep 25 11:29:05 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:29:05.131 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:29:05.134 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:29:05 WAT 2021, modifyDate=Sat Sep 25 11:29:05 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:29:05.182 [main] INFO  org.allisonkosy.App - Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=2021-09-25 11:29:05.068, modifyDate=2021-09-25 11:29:05.068, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:29:05.210 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:29:05.216 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:29:05.220 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a3cf824] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:29:05.240 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
+2021-09-25 11:54:37.372 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: SocialMedia]
+2021-09-25 11:54:37.533 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-25 11:54:38.298 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 11:54:38.603 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-25 11:54:39.592 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-25 11:54:39.598 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-25 11:54:39.599 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-25 11:54:39.599 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-25 11:54:39.602 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-25 11:54:39.888 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59096b66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:54:39.901 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b37df8e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:54:39.977 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 11:54:40.177 [main] INFO  org.allisonkosy.App - Created User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:54:40.180 [main] INFO  org.allisonkosy.App - Created User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:54:40.182 [main] INFO  org.allisonkosy.App - Created User{id=3, username='Thornie', password='PaHW6Imn5B', isLoggedIn=false}
+2021-09-25 11:54:40.184 [main] INFO  org.allisonkosy.App - Created User{id=4, username='Rickie', password='ZQGYblRAhapl', isLoggedIn=false}
+2021-09-25 11:54:40.187 [main] INFO  org.allisonkosy.App - Created User{id=5, username='Reed', password='ON7akEa', isLoggedIn=false}
+2021-09-25 11:54:40.189 [main] INFO  org.allisonkosy.App - Created User{id=6, username='Benedetto', password='3QHKyccvEyf', isLoggedIn=false}
+2021-09-25 11:54:40.192 [main] INFO  org.allisonkosy.App - Created User{id=7, username='Edmund', password='a2ngPU', isLoggedIn=false}
+2021-09-25 11:54:40.194 [main] INFO  org.allisonkosy.App - Created User{id=8, username='Rhodie', password='yRreB69rJfr3', isLoggedIn=false}
+2021-09-25 11:54:40.196 [main] INFO  org.allisonkosy.App - Created User{id=9, username='Vilma', password='hZkhrKHAp', isLoggedIn=false}
+2021-09-25 11:54:40.198 [main] INFO  org.allisonkosy.App - Created User{id=10, username='Phaedra', password='LNfGON7EsG', isLoggedIn=false}
+2021-09-25 11:54:40.200 [main] INFO  org.allisonkosy.App - Created User{id=11, username='Faydra', password='kBknirbgu0S', isLoggedIn=false}
+2021-09-25 11:54:40.202 [main] INFO  org.allisonkosy.App - Created User{id=12, username='Barr', password='CDybGyv', isLoggedIn=false}
+2021-09-25 11:54:40.204 [main] INFO  org.allisonkosy.App - Created User{id=13, username='Stearne', password='B2geUvL8eEHr', isLoggedIn=false}
+2021-09-25 11:54:40.207 [main] INFO  org.allisonkosy.App - Created User{id=14, username='Stevena', password='FCuCqZiJRR', isLoggedIn=false}
+2021-09-25 11:54:40.209 [main] INFO  org.allisonkosy.App - Created User{id=15, username='Karl', password='hIBZq5rgdasL', isLoggedIn=false}
+2021-09-25 11:54:40.474 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:54:40.510 [main] INFO  org.allisonkosy.App - Created Post{id=16, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:54:40 WAT 2021, modifyDate=Sat Sep 25 11:54:40 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:54:40.512 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:54:40.514 [main] INFO  org.allisonkosy.App - Created Post{id=17, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:54:40 WAT 2021, modifyDate=Sat Sep 25 11:54:40 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:54:40.516 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:54:40.518 [main] INFO  org.allisonkosy.App - Created Post{id=18, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:54:40 WAT 2021, modifyDate=Sat Sep 25 11:54:40 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:54:40.519 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:54:40.521 [main] INFO  org.allisonkosy.App - Created Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:54:40 WAT 2021, modifyDate=Sat Sep 25 11:54:40 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:54:40.523 [main] INFO  org.allisonkosy.App - User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}
+2021-09-25 11:54:40.525 [main] INFO  org.allisonkosy.App - Created Post{id=20, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=Sat Sep 25 11:54:40 WAT 2021, modifyDate=Sat Sep 25 11:54:40 WAT 2021, body='This is the body', title='A title', slug='a-title'}
+2021-09-25 11:54:40.559 [main] INFO  org.allisonkosy.App - User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}
+2021-09-25 11:54:40.575 [main] INFO  org.allisonkosy.App - Created Comment{id=21, createDate=Sat Sep 25 11:54:40 WAT 2021, modifyDate=Sat Sep 25 11:54:40 WAT 2021, user=User{id=1, username='Giffard', password='OjdlfD5vUFDF', isLoggedIn=false}, post=Post{id=19, user=User{id=2, username='Maynord', password='piaqDKS0kA', isLoggedIn=false}, createDate=2021-09-25 11:54:40.521, modifyDate=2021-09-25 11:54:40.521, body='This is the body', title='A title', slug='a-title'}}
+2021-09-25 11:54:40.589 [main] INFO  org.allisonkosy.App - Closing
+2021-09-25 11:54:40.590 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-25 11:54:40.592 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ad889be] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-25 11:54:40.604 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]
