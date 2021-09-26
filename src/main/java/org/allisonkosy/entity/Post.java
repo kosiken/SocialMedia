@@ -9,7 +9,7 @@ import java.util.Locale;
 
 @Entity
 @Table(name = "posts")
-public class Post {
+public class Post implements Model  {
     @Id
     @GeneratedValue
     private Long id;
@@ -34,8 +34,15 @@ public class Post {
     @Column(name = "slug", nullable = false)
     private String slug;
 
+    @Transient
+    private boolean hasPrinted = false;
+
     public Long getId() {
         return id;
+    }
+
+    public boolean isHasPrinted() {
+        return hasPrinted;
     }
 
     public String getBody() {
@@ -66,6 +73,10 @@ public class Post {
         this.user = user;
     }
 
+    public void setHasPrinted(boolean hasPrinted) {
+        this.hasPrinted = hasPrinted;
+    }
+
     public String getSlug() {
         return slug;
     }
@@ -93,12 +104,33 @@ public class Post {
     public String toString() {
         return "Post{" +
                 "id=" + id +
-                ", user=" + user +
+                ", user= " + user.getUsername() + "user_id=" + user.getId() +
                 ", createDate=" + createDate +
                 ", modifyDate=" + modifyDate +
-                ", body='" + body + '\'' +
+                ", body='" + body.substring(0, 4) + "...." + '\'' +
                 ", title='" + title + '\'' +
                 ", slug='" + slug + '\'' +
                 '}';
+    }
+
+    @Override
+    public String describe() {
+        if (hasPrinted) return "";
+        hasPrinted = true;
+
+        StringBuilder builder = new StringBuilder();
+
+        builder.append("# ").append(title)
+        .append("\n-> ").append(modifyDate)
+                .append('\n')
+                .append(body)
+                .append("\n\n");
+        String bottom = "-".repeat(10);
+        builder.append(bottom);
+
+        builder.append("\nAuthor: ");
+        builder.append(user.getUsername())
+                .append("\n\n");
+        return builder.toString();
     }
 }

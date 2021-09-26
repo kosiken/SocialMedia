@@ -8,6 +8,8 @@ import org.hibernate.exception.ConstraintViolationException;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.RollbackException;
+import java.util.List;
+import java.util.Locale;
 //import java.util.List;
 
 public class UserService extends AbstractService {
@@ -22,6 +24,7 @@ public class UserService extends AbstractService {
       try{
           if(object instanceof String) {
               String username = (String) object;
+              username = username.toLowerCase(Locale.ROOT);
               c = queryFactory.selectFrom(user)
                       .where(user.username.eq(username))
                       .fetchOne();
@@ -82,5 +85,21 @@ public class UserService extends AbstractService {
         return user;
 
 
+    }
+
+    public List<User> getAllUsers() {
+        QUser user = QUser.user;
+        List<User> users =null;
+        try {
+            users = queryFactory.selectFrom(user)
+                    .where().fetch();
+
+
+        }
+        catch (Exception e) {
+            App.logError(1);
+            App.logger.error(e);
+        }
+        return users;
     }
 }

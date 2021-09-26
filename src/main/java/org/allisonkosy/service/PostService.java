@@ -5,6 +5,7 @@ import com.querydsl.core.NonUniqueResultException;
 import org.allisonkosy.App;
 import org.allisonkosy.entity.Post;
 import org.allisonkosy.entity.QPost;
+import org.allisonkosy.entity.QUser;
 import org.allisonkosy.entity.User;
 
 
@@ -29,7 +30,8 @@ public class PostService extends AbstractService {
                 postList = queryFactory.selectFrom(post)
                         .where(post.slug.eq(slug))
                         .fetch();
-                c = postList.get(0);
+              if(postList.size() > 0)  c = postList.get(0);
+              else c = null;
             } else {
                 Long id = (Long) object;
                 c = queryFactory.selectFrom(post)
@@ -37,7 +39,7 @@ public class PostService extends AbstractService {
                         .fetchOne();
             }
         }
-        catch (NonUniqueResultException e) {
+        catch (Exception e) {
            App.logError(1);
             c = null;
         }
@@ -62,7 +64,14 @@ public class PostService extends AbstractService {
 
         catch (Exception err) {
             if (transaction != null) {
-                transaction.rollback();
+                try {
+                    transaction.rollback();
+
+                }
+                catch (Exception err2) {
+                    App.logger.error(err2.getMessage());
+                    return null;
+                }
 
             }
             err.printStackTrace();
@@ -78,5 +87,27 @@ public class PostService extends AbstractService {
         return post;
 
 
+    }
+
+    public List<Post> getAllPosts( User user) {
+        QPost post = QPost.post;
+        List<Post> posts =null;
+        try {
+            if(user != null) {
+                posts = queryFactory.selectFrom(post)
+                        .where(post.user.eq(user)).fetch();
+            }
+          else {
+                posts = queryFactory.selectFrom(post)
+                        .where().fetch();
+            }
+
+
+        }
+        catch (Exception e) {
+            App.logError(1);
+            App.logger.error(e);
+        }
+        return posts;
     }
 }

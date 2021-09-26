@@ -86,13 +86,24 @@ public class Comment implements Serializable, Model {
                 "id=" + id +
                 ", createDate=" + createDate +
                 ", modifyDate=" + modifyDate +
-                ", user=" + user +
-                ", post=" + post +
+                ", user=" + user.getUsername() +
+                ", post=" + post.getId() +
                 '}';
     }
 
     @Override
-    public String getDescription() {
-        return null;
+    public String describe() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("## ")
+                .append(user.getUsername())
+                .append('\n');
+
+        String bottom = "-".repeat(10);
+        builder.append(bottom)
+                .append('\n')
+                .append(body)
+                .append('\n')
+                .append(modifyDate);
+        return builder.toString();
     }
 }

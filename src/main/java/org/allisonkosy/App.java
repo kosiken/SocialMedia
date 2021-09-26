@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  * Hello world!
@@ -19,7 +19,7 @@ public class App
     public static final Logger logger = LogManager.getLogger(App.class);
     public static final String[] errors = ("No record found\n" +
     "An error occured\n" +
-            "User with username already exists").split("\n");
+            "User with username already exists\n"+"Invalid crieteria").split("\n");
     public static EntityManagerFactory entityManagerFactory = Persistence
             .createEntityManagerFactory("SocialMedia");
     public static final String userCsv =
@@ -37,54 +37,283 @@ public class App
             "12,Barr,CDybGyv\n" +
             "13,Stearne,B2geUvL8eEHr\n" +
             "14,Stevena,FCuCqZiJRR\n" +
-            "15,Karl,hIBZq5rgdasL\n" +
-            "16,Fidelia,KlaLDnZoEgE\n" +
-            "17,Truda,dfcRpt\n" +
-            "18,Wallace,PiOKZUrOs2\n" +
-            "19,Walt,PBPoTtN\n" +
-            "20,Teresina,DRg6Ro\n" +
-            "21,Merline,XoKoNc\n" +
-            "22,Martha,bTdvKzsaj\n" +
-            "23,Mariquilla,0sxkfz0M\n" +
-            "24,Ivonne,Wt32LJCa\n" +
-            "25,Grethel,1JjydZa7N\n" +
-            "26,Brnaba,iOlAQu8h1qq3\n" +
-            "27,Horatius,DoxZkAUUjI7k\n" +
-            "28,Brittan,pvcbTnM9kZsw\n" +
-            "29,Nero,x2SDQ7\n" +
-            "30,Rebecka,SK0r73P\n" +
-            "31,Rhett,GhYV3M9fDI\n" +
-            "32,Marisa,SJkQ2kF20\n" +
-            "33,Vick,kvQNWJF9\n" +
-            "34,Roseann,2OpUnnJi\n" +
-            "35,Laverne,Nu6wpupWmj1g\n" +
-            "36,Tristam,FE0nGkIIBe\n" +
-            "37,Puff,t1W930geGubk\n" +
-            "38,Teodoro,CTYrVhHcJEV\n" +
-            "39,Yank,PrRGWwBA\n" +
-            "40,Vickie,qzbcsmztHeWO\n" +
-            "41,Orlando,hrsFCQqF\n" +
-            "42,Alaine,iFBMMs\n" +
-            "43,Wolf,0FxRIQg\n" +
-            "44,Brigit,OofMiMb9\n" +
-            "45,Wandie,HwjagJm\n" +
-            "46,Lutero,ohHE6N\n" +
-            "47,Lexy,DiBJ2J\n" +
-            "48,Erna,I3GS8a0G6\n" +
-            "49,Miles,ljchT7GNaV\n" +
-            "50,Niles,UDBuvNrWs";
+            "15,Karl,hIBZq5rgdasL\n";
+
+
+    public static User currentUser = null;
+    public static Post currentPost = null;
 
     public static void main( String[] args )
     {
         Server server = new Server();
-        ArrayList<User> users = addBulkUsers(server, 5);
-        System.out.println(users.get(2));
-        User u = server.getAUser("Thornie");
-        System.out.println(u);
+        Scanner in = new Scanner(System.in);
+        initialize(server);
+        System.out.println("Welcome to the Socialite");
+        int resp = 1;
+
+
+        while (true) {
+            if(currentUser != null) {
+              resp =  authenticated(server, in);
+
+            }
+         else resp =  unAuthenticated(server, in);
+
+            if(resp == 0) {
+                break;
+            }
+
+
+
+        }
+
 
 
     }
 
+    public static int authenticated(Server server, Scanner in) {
+        int choice  = 0;
+        if(currentPost != null) {
+            System.out.println(currentPost.describe());
+            System.out.println("Input 1 to add comment\nInput 2 to view all comments\n Input 3 to go back \n Input >=4 to close");
+            choice = in.nextInt();
+            if(choice == 1) {
+                addComment(server, in);
+            }
+            else if(choice == 2) {
+                viewAllComments(server);
+            }
+            else if(choice == 3) {
+                currentPost  = null;
+            }
+            else if(choice >= 4) {
+                return 0;
+            }
+
+        }
+        else {
+            try {
+                System.out.println("Input 1 to add post\nInput 2 to view all posts\n Input 3 to logout\nInput >= 4 to exit");
+
+                choice = in.nextInt();
+                if (choice == 1) {
+                    addPost(server, in);
+                }
+                else if(choice == 2) {
+                    viewAllPosts(server, in);
+                }
+                else if(choice == 3) {
+                    currentUser = null;
+                }
+                else if(choice >= 4) {
+                    return 0;
+                }
+            }
+            catch (InputMismatchException err) {
+                System.out.println("Incorrect input");
+                in.nextLine();
+
+            }
+
+
+
+
+        }
+
+        return  1;
+    }
+
+    public static void addPost(Server server, Scanner in) {
+        in.nextLine();
+
+        String[] questions = {
+                "What is your post title: ",
+                "What is post body: "
+        };
+        int index = 0;
+        String title = "";
+        String body = "";
+        StringBuilder builder = new StringBuilder();
+
+        while (index <  4) {
+           if(index <= 1) System.out.print(questions[index]);
+           if(index == 3) break; // avoid infinite looping
+
+            if(index<1)  title = in.nextLine();
+            else {
+               if(index <= 1) System.out.println("Keep Inputting lines or input an empty line to submit post");
+                if(index == 1) index++;
+                body = in.nextLine();
+                if(body.length() == 0 && index > 1) {
+                    // catch empty line after first input
+                    body = builder.toString();
+                    break;
+                }
+                builder.append(body).append('\n');
+                continue; // do not increment index while user is still inputting
+                          // body text
+
+            }
+            index++;
+        }
+        Post post = server.createPost(currentUser.getId(), body, title);
+        return;
+
+    }
+
+    public static void viewAllPosts(Server server, Scanner in) {
+        in.nextLine();
+        int choice = 0;
+        List<Post> posts = server.getAllPosts();
+        for (Post post : posts) {
+            System.out.println( post.getId() +". "+  post.getTitle());
+            System.out.println(post.getUser().getUsername());
+            System.out.println("-".repeat(10));
+        }
+
+        System.out.println("Input a post id or slug to select a post");
+        while (true){
+            String nl = in.nextLine();
+            try {
+
+                choice = Integer.parseInt(nl);
+                currentPost = server.findPost(choice);
+
+            }
+            catch (NumberFormatException exception) {
+                currentPost = server.findPost(nl);
+            }
+
+            if(currentPost == null) {
+                System.out.println("No such post");
+            }
+            else {
+                break;
+            }
+        }
+    }
+
+    public static void addComment(Server server, Scanner in) {
+        in.nextLine();
+
+        System.out.print("\nWhat is your comment: ");
+        String body = in.nextLine();
+        Comment comment = server.addComment(currentUser.getId().intValue(), currentPost.getId().intValue(), body);
+        if(comment != null) {
+            System.out.println(comment.describe());
+        }
+    }
+
+    public static void viewAllComments(Server server) {
+        List<Comment > comments = server.getComments(currentPost.getId().intValue());
+        if(comments.size() == 0) {
+            System.out.println("No comments");
+            return;
+        }
+
+        System.out.println("COMMENTS ON " + currentPost.getTitle());
+        for (Comment comment: comments) {
+            System.out.println(comment.describe());
+        }
+    }
+
+    public static int unAuthenticated(Server server, Scanner in) {
+        int choice = 0;
+        System.out.println("Input 1 to create new user\nInput 2 to log in as existing user\nInput 3 to exit");
+        try {
+            choice = in.nextInt();
+            System.out.println(choice);
+            if(choice == 1) {
+                register(server, in);
+            }
+            else if(choice == 2) {
+                login(server, in);
+            }
+            else if(choice == 3) {
+                return 0;
+            }
+        } catch (InputMismatchException err) {
+            System.out.println("Incorrect input");
+            in.nextLine();
+
+        }
+        return 1;
+    }
+
+
+    public static void login(Server server, Scanner in) {
+
+        System.out.println(userCsv);
+        System.out.println("Input one of the following username and password combination to log in or use yours");
+        User user = null;
+        String[] questions = {
+                "What is your username: ",
+                "What is your password: "
+        };
+        int index = 0;
+        String name = "";
+        String password = "";
+        in.nextLine();
+
+        while (index <  2) {
+            System.out.print(questions[index]);
+
+            if(index<1) {
+                name = in.nextLine();
+                user = server.getAUser(name);
+                if(user == null) {
+                    break;
+                }
+            }
+            else {
+                password = in.nextLine();
+
+            }
+            index++;
+
+        }
+        if( user != null && password.equals(user.getPassword())) {
+
+            currentUser = user;
+            currentUser.setLoggedIn(true);
+
+        }
+        else {
+            System.out.println("Invalid username or password");
+        }
+
+    }
+    public static void register(Server server, Scanner in) {
+        in.nextLine();
+
+        String[] questions = {
+                "What is your username: ",
+                "What is your password: "
+        };
+        int index = 0;
+        String name = "";
+        String password = "";
+
+        while (index <  2) {
+            System.out.print(questions[index]);
+
+            if(index<1)  name = in.nextLine();
+            else {
+               password = in.nextLine();
+            }
+            index++;
+        }
+        User user = server.createUser(name, password);
+        currentUser = user;
+        if (currentUser == null) {
+            System.out.println("Cannot use " + name );
+        }
+    }
+    public static void initialize(Server server) {
+        App.addBulkUsers(server, 15);
+        App.createPlentyRandomPosts(server, 5, 2);
+        App.addPlentyRandomComments(server, 16, 1, 2, 2, 4, 5, 6 );
+    }
     public static void close( ) {
         logger.info("Closing");
         entityManagerFactory.close();
@@ -124,6 +353,16 @@ public class App
             else {
                 createRandomPost(server,user);
             }
+        }
+    }
+
+    public static void createRandomComment(Server server, int post, int user) {
+        server.addComment(user, post, "This is a comment");
+    }
+
+    public static void addPlentyRandomComments(Server server, int post, Integer ...users) {
+        for (Integer user : users) {
+            createRandomComment(server, post, user.intValue());
         }
     }
     public static void logError(int index) {

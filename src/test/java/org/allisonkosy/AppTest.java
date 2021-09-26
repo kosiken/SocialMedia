@@ -2,14 +2,13 @@ package org.allisonkosy;
 
 import org.allisonkosy.entity.*;
 import org.allisonkosy.runner.Server;
-import org.allisonkosy.service.PostService;
-import org.allisonkosy.service.UserService;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -17,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Unit test for simple App.
  */
-@DisplayName("School Library Test class")
+@DisplayName("Social Media Test class")
 public class AppTest 
 {
     /**
@@ -28,8 +27,7 @@ public class AppTest
     @BeforeAll
     public static void beforeAll() {
         Server server = new Server();
-        App.addBulkUsers(server, 15);
-        App.createPlentyRandomPosts(server, 5, 2);
+        App.initialize(server);
     }
     @Test
     public void shouldAnswerWithTrue()
@@ -85,9 +83,19 @@ public class AppTest
 
 
     @Test
+    @DisplayName("Test not create comment for invalid user")
     public void shouldNotCreateComment() {
-        assertTrue(true);
+        Comment comment = server.addComment(30, 19, "A null comment");
+        assertNull(comment);
     }
+
+    @Test
+    @DisplayName("Test not create comment for invalid post")
+    public void shouldNotCreateComment2() {
+        Comment comment = server.addComment(1, 32, "A null comment");
+        assertNull(comment);
+    }
+
 
 
     @Test
@@ -136,20 +144,75 @@ public class AppTest
         assertTrue(true);
     }
     @Test
-    public void shouldFindComment() {
+    @DisplayName("Test should find comments under post")
+    public void shouldFindComments() {
+        List<Comment > comments = server.getComments(16);
+        assertNotNull(comments);
+        assertEquals(6, comments.size());
+        assertEquals("Benedetto", comments.get(5).getUser().getUsername());
         assertTrue(true);
     }
 
     @Test
+    @DisplayName("Test should find comments under by a user")
+    public void shouldFindCommentsByUser() {
+        List<Comment > comments = server.getCommentsByUser(2);
+        assertNotNull(comments);
+        assertEquals(2, comments.size());
+        assertEquals("Maynord", comments.get(0).getUser().getUsername());
+        assertTrue(true);
+    }
+
+
+    @Test
+    @DisplayName("Test should not find invalid post")
     public void shouldNotFindPost() {
-        assertTrue(true);
+        Post post = server.findPost(25);
+        assertNull(post);
     }
     @Test
-    public void shouldNotFindComment() {
-        assertTrue(true);
+    @DisplayName("Test should not find comments under invalid post")
+    public void shouldNotFindComments() {
+        List<Comment> comments = server.getComments(30);
+
+        assertNull(comments);
+
     }
 
+    @Test
+    @DisplayName("Test should get All valid posts")
+    public void shouldGetAllPosts(){
+        List<Post> posts = server.getAllPosts();
+        assertNotNull(posts);
 
+        assertEquals(5, posts.size());
+
+        posts = server.getAllPosts(2);
+        assertEquals(5, posts.size());
+
+        posts = server.getAllPosts(3);
+        assertEquals(0, posts.size());
+
+        posts = server.getAllPosts(80);
+        assertNull(posts);
+
+
+
+    }
+
+    @Test
+    @DisplayName("Test should get All valid users")
+    public void shouldGetAllUsers(){
+        List<User> users = server.getAllUsers();
+        assertNotNull(users);
+
+        assertEquals(15, users.size());
+
+
+
+
+
+    }
     @AfterAll
     public static void endAll() {
         App.close();

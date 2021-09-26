@@ -38,4 +38,6 @@ public class AbstractService {
        EntityTransaction transaction = entityManager.getTransaction();
         return transaction;
     }
+
+
 }

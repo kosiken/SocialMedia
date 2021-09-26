@@ -2,6 +2,7 @@ package org.allisonkosy.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Locale;
 
 @Entity
 @Table(name = "users")
@@ -43,7 +44,7 @@ public class User implements Serializable {
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.username = username.toLowerCase(Locale.ROOT);
     }
 
     @Override

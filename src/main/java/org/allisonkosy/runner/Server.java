@@ -31,14 +31,20 @@ public class Server {
 
 
     private Post createPost(User user, String body, String title) {
-        return postService.insertPost(user,body,title);
+        String realBody = body;
+        if(realBody.length() < 5) {
+            realBody = body + " padding to avoid errors";
+        }
+        return postService.insertPost(user,realBody,title);
     }
     public Post createPost(String username, String body, String title) {
         User u = getAUser(username);
         if(u == null) {
             return null;
         }
+
         else {
+
             return createPost(u, body, title);
         }
     }
@@ -53,6 +59,15 @@ public class Server {
         }
     }
 
+    public Post createPost(Long id, String body, String title) {
+        User u = getAUser(id);
+        if(u == null) {
+            return null;
+        }
+        else {
+            return createPost(u, body, title);
+        }
+    }
     public Post findPost(int id) {
         return postService.getAPost(Long.valueOf((long) id));
 
@@ -81,6 +96,42 @@ public class Server {
         else {
             return addComment(user, post, body);
         }
+    }
+    private List<Comment> getComments(Object object) {
+        return commentService.getComments(object);
+    }
+    public List<Comment> getComments (int postId) {
+        Post post = findPost(postId);
+        if(post == null) {
+            return null;
+        }
+        return getComments(post);
+
+    }
+
+    public List<Comment> getCommentsByUser (int userId) {
+        User user = getAUser(Long.valueOf((long) userId));
+        if(user == null) {
+            return  null;
+        }
+
+        return getComments(user);
+
+    }
+
+    public List<Post> getAllPosts() {
+        return postService.getAllPosts(null);
+    }
+    public List<Post> getAllPosts(int userId) {
+        User user = getAUser(Long.valueOf((long) userId));
+        if(user == null) {
+            return  null;
+        }
+        return postService.getAllPosts(user);
+    }
+
+    public List<User> getAllUsers() {
+        return userService.getAllUsers();
     }
 
 //    public ArrayList<User> createBulk(List<String[]> users) {
