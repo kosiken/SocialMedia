@@ -1,7 +1,7 @@
 package org.allisonkosy;
 import org.allisonkosy.entity.*;
 import org.allisonkosy.runner.Server;
-import org.allisonkosy.service.UserService;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,11 +17,16 @@ public class App
 
 {
     public static final Logger logger = LogManager.getLogger(App.class);
+    
+    // app error messages array
     public static final String[] errors = ("No record found\n" +
-    "An error occured\n" +
+    "An error occurred\n" +
             "User with username already exists\n"+"Invalid crieteria").split("\n");
+    
     public static EntityManagerFactory entityManagerFactory = Persistence
             .createEntityManagerFactory("SocialMedia");
+
+    // A group of preloaded users
     public static final String userCsv =
             "1,Giffard,OjdlfD5vUFDF\n" +
             "2,Maynord,piaqDKS0kA\n" +
@@ -39,8 +44,10 @@ public class App
             "14,Stevena,FCuCqZiJRR\n" +
             "15,Karl,hIBZq5rgdasL\n";
 
-
+    // The user that is currently logged in
     public static User currentUser = null;
+
+    // The post that is currently being viewed
     public static Post currentPost = null;
 
     public static void main( String[] args )
@@ -49,20 +56,25 @@ public class App
         Scanner in = new Scanner(System.in);
         initialize(server);
         System.out.println("Welcome to the Socialite");
+
         int resp = 1;
 
 
-        while (true) {
+        while (resp != 0) {
+            /**
+             * Run an infinite loop until one of the methods
+             * @App.authenticated or @App.unAuthenticated
+             * returns zero
+             */
             if(currentUser != null) {
-              resp =  authenticated(server, in);
+                // There is already a user logged in
+
+                resp =  authenticated(server, in);
 
             }
+
+            // No currently logged-in user
          else resp =  unAuthenticated(server, in);
-
-            if(resp == 0) {
-                break;
-            }
-
 
 
         }
@@ -71,12 +83,36 @@ public class App
 
     }
 
+    /**
+     *
+     * @param server
+     * @param in
+     * @return
+     */
     public static int authenticated(Server server, Scanner in) {
-        int choice  = 0;
+        int choice; // Number user inputed
         if(currentPost != null) {
+            // If there is a post being viewed then show the post
             System.out.println(currentPost.describe());
+
+            // Prompt user to add comment, view comments or to
+            // go back to select another post
             System.out.println("Input 1 to add comment\nInput 2 to view all comments\n Input 3 to go back \n Input >=4 to close");
-            choice = in.nextInt();
+           try {
+               choice = in.nextInt();
+           }
+           catch (InputMismatchException err) {
+               // If the user inputs something that is not a number
+               // do not process further but user would be re-prompted because
+               // we return 1
+               System.out.println("Incorrect input");
+               in.nextLine();
+               return 1;
+
+
+           }
+
+
             if(choice == 1) {
                 addComment(server, in);
             }
@@ -84,9 +120,11 @@ public class App
                 viewAllComments(server);
             }
             else if(choice == 3) {
+                // User wants to go back
                 currentPost  = null;
             }
             else if(choice >= 4) {
+                // User wants to exit
                 return 0;
             }
 
@@ -103,23 +141,22 @@ public class App
                     viewAllPosts(server, in);
                 }
                 else if(choice == 3) {
+                    // User wants to go back
                     currentUser = null;
                 }
                 else if(choice >= 4) {
+                    // User wants to go exit
                     return 0;
                 }
             }
             catch (InputMismatchException err) {
+                // If the user inputs something that is not a number
+                // do not process further but user would be re-prompted because
+                // we return 1
                 System.out.println("Incorrect input");
                 in.nextLine();
-
             }
-
-
-
-
         }
-
         return  1;
     }
 
@@ -135,17 +172,27 @@ public class App
         String body = "";
         StringBuilder builder = new StringBuilder();
 
-        while (index <  4) {
-           if(index <= 1) System.out.print(questions[index]);
-           if(index == 3) break; // avoid infinite looping
+        while (true) {
+            // infinite loop to capture multiline text
+           if(index <= 1) System.out.print(questions[index]); // do not prompt user more than twice
 
-            if(index<1)  title = in.nextLine();
+
+            if(index<1)  title = in.nextLine(); // get post title
             else {
-               if(index <= 1) System.out.println("Keep Inputting lines or input an empty line to submit post");
-                if(index == 1) index++;
-                body = in.nextLine();
-                if(body.length() == 0 && index > 1) {
-                    // catch empty line after first input
+                /**
+                 * What we try to achieve here is trying to enable a user enter multiline post bodies
+                 * When the user wants to submit a post they send an empty line
+                 * When this block executes the first time the "Keep Inputting..." prompt will be printed
+                 * On the subsequent executions of the block we wait for an empty line before continuing
+                 * while storing any non-empty lines in the StringBuilder
+                 */
+                if(index == 1) {
+                    System.out.println("Keep Inputting lines or input an empty line to submit post");
+                    index++;
+                }
+                body = in.nextLine(); // capture a line
+                if(body.length() == 0) {
+                    // catch empty lines and break out of loop
                     body = builder.toString();
                     break;
                 }
@@ -156,29 +203,33 @@ public class App
             }
             index++;
         }
-        Post post = server.createPost(currentUser.getId(), body, title);
-        return;
+        server.createPost(currentUser.getId(), body, title);
+
 
     }
 
     public static void viewAllPosts(Server server, Scanner in) {
         in.nextLine();
-        int choice = 0;
+        int choice;
         List<Post> posts = server.getAllPosts();
+        // show all posts to user
         for (Post post : posts) {
             System.out.println( post.getId() +". "+  post.getTitle());
             System.out.println(post.getUser().getUsername());
             System.out.println("-".repeat(10));
         }
-
+        /**
+         * By slug, I mean for example if a post is titled "The Wonder Woman"
+         * The slug for that would be the-wonder-woman
+         */
         System.out.println("Input a post id or slug to select a post");
-        while (true){
+        while(true) {
+            
             String nl = in.nextLine();
-            try {
 
+            try {
                 choice = Integer.parseInt(nl);
                 currentPost = server.findPost(choice);
-
             }
             catch (NumberFormatException exception) {
                 currentPost = server.findPost(nl);
@@ -218,7 +269,7 @@ public class App
     }
 
     public static int unAuthenticated(Server server, Scanner in) {
-        int choice = 0;
+        int choice;
         System.out.println("Input 1 to create new user\nInput 2 to log in as existing user\nInput 3 to exit");
         try {
             choice = in.nextInt();
@@ -230,6 +281,7 @@ public class App
                 login(server, in);
             }
             else if(choice == 3) {
+                // user wants to exit
                 return 0;
             }
         } catch (InputMismatchException err) {
@@ -251,7 +303,7 @@ public class App
                 "What is your password: "
         };
         int index = 0;
-        String name = "";
+        String name;
         String password = "";
         in.nextLine();
 
@@ -303,8 +355,7 @@ public class App
             }
             index++;
         }
-        User user = server.createUser(name, password);
-        currentUser = user;
+        currentUser = server.createUser(name, password);
         if (currentUser == null) {
             System.out.println("Cannot use " + name );
         }
@@ -319,9 +370,9 @@ public class App
         entityManagerFactory.close();
     }
 
-    public static ArrayList<User> addBulkUsers(Server server, int count) {
+    public static void addBulkUsers(Server server, int count) {
         String[] strings = userCsv.split("\n");
-        ArrayList<User> users = new ArrayList<>();
+
         int c = 0;
 
 
@@ -330,7 +381,7 @@ public class App
             String[] s1 = s.split(",");
             try {
                 if(c>= count ) break;
-                users.add(server.createUser(s1[1], s1[2]));
+              server.createUser(s1[1], s1[2]);
                 c++;
             }catch (ArrayIndexOutOfBoundsException exception) {
                 logger.info(exception.getMessage());
@@ -339,7 +390,6 @@ public class App
 
 
         }
-        return users;
     }
 
     public static void createRandomPost(Server server, int user) {
@@ -362,7 +412,7 @@ public class App
 
     public static void addPlentyRandomComments(Server server, int post, Integer ...users) {
         for (Integer user : users) {
-            createRandomComment(server, post, user.intValue());
+            createRandomComment(server, post, user);
         }
     }
     public static void logError(int index) {

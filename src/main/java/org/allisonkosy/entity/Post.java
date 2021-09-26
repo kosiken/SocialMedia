@@ -27,7 +27,7 @@ public class Post implements Model  {
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "modify_date")
     private Date modifyDate;
-    @Column(name = "body", nullable = false)
+    @Column(name = "body", nullable = false, columnDefinition = "TEXT")
     private String body;
     @Column(name = "title", nullable = false)
     private String title;

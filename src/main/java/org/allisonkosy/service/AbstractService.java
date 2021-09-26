@@ -10,6 +10,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
 public class AbstractService {
+
+    // The classes inheriting from this class would be used to query the database 
+    // This is to allow some abstraction from the Server class
     protected EntityManager entityManager;
     protected final JPAQueryFactory queryFactory;
     AbstractService(EntityManager entityManager) {
@@ -24,6 +27,7 @@ public class AbstractService {
     }
 
     protected void reinitialize() {
+        // We have to create new entity managers if the current one is closed
         if(!this.entityManager.isOpen()) {
             this.entityManager = App.entityManagerFactory.createEntityManager();
         }

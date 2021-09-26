@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Server {
+    // Services handle all queries relating to their respective entities
     private final  UserService userService = new UserService(App.entityManagerFactory.createEntityManager());
     private final PostService postService = new PostService(App.entityManagerFactory.createEntityManager());
     private final CommentService commentService = new CommentService(App.entityManagerFactory.createEntityManager());
@@ -24,6 +25,7 @@ public class Server {
         User user = userService.getUser(object);
        if(user != null) App.logger.info(user.toString());
        else {
+        
            App.logError(0);
        }
         return user;
@@ -134,19 +136,5 @@ public class Server {
         return userService.getAllUsers();
     }
 
-//    public ArrayList<User> createBulk(List<String[]> users) {
-//        ArrayList<User> userArrayList = new ArrayList<>();
-//        for (String[] s:
-//             users) {
-//            try {
-//                userArrayList.add(createUser(s[0], s[1]));
-//            }
-//            catch (ArrayIndexOutOfBoundsException exception) {
-//                App.logger.error(exception.getMessage());
-//                userArrayList = new ArrayList<>();
-//                break;
-//            }
-//        }
-//        return userArrayList;
-//    }
+
 }

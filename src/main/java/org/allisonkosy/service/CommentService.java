@@ -39,9 +39,8 @@ public class CommentService extends AbstractService {
            comment = null;
        }
        finally {
-
-//           close("Comment");
            if(comment != null) {
+               // We successfully created a comment
                App.logger.info("Created " + comment);
            }
        }
@@ -56,10 +55,12 @@ public class CommentService extends AbstractService {
        try {
 
            if (object instanceof User) {
+               // Find  comments by a particular user 
                User user = (User) object;
                comments = queryFactory.selectFrom(comment).where(comment.user.eq(user)).fetch();
            }
            else if(object instanceof Post) {
+               // find comments under a particular post
                Post post = (Post) object;
                comments = queryFactory.selectFrom(comment).where(comment.post.eq(post)).fetch();
 
