@@ -21,7 +21,7 @@ public class App
     // app error messages array
     public static final String[] errors = ("No record found\n" +
     "An error occurred\n" +
-            "User with username already exists\n"+"Invalid crieteria").split("\n");
+            "User with username or password already exists\n"+"Invalid crieteria").split("\n");
     
     public static EntityManagerFactory entityManagerFactory = Persistence
             .createEntityManagerFactory("SocialMedia");
@@ -357,7 +357,7 @@ public class App
         }
         currentUser = server.createUser(name, password);
         if (currentUser == null) {
-            System.out.println("Cannot use " + name );
+            System.out.println("must use unique name or password" );
         }
     }
     public static void initialize(Server server) {

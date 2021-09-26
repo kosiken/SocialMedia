@@ -1,6 +1,5 @@
 package org.allisonkosy.service;
 import com.querydsl.core.NonUniqueResultException;
-import com.querydsl.jpa.impl.JPAQuery;
 import org.allisonkosy.App;
 import org.allisonkosy.entity.*;
 import org.hibernate.exception.ConstraintViolationException;
@@ -10,7 +9,6 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.RollbackException;
 import java.util.List;
 import java.util.Locale;
-//import java.util.List;
 
 public class UserService extends AbstractService {
     public UserService(EntityManager entityManager) {

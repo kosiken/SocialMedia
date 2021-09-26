@@ -6,7 +6,7 @@ import org.allisonkosy.service.CommentService;
 import org.allisonkosy.service.PostService;
 import org.allisonkosy.service.UserService;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 public class Server {

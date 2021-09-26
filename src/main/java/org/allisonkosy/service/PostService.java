@@ -1,11 +1,9 @@
 package org.allisonkosy.service;
 
-
-import com.querydsl.core.NonUniqueResultException;
 import org.allisonkosy.App;
 import org.allisonkosy.entity.Post;
 import org.allisonkosy.entity.QPost;
-import org.allisonkosy.entity.QUser;
+
 import org.allisonkosy.entity.User;
 
 
